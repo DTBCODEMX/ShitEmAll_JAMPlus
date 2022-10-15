@@ -29,6 +29,7 @@ namespace MoreMountains.CorgiEngine
 		protected CharacterHandleWeapon _characterShoot;
 		protected Vector2 _raycastOrigin;
 		protected RaycastHit2D _raycast;
+		//protected Character
 
 		/// <summary>
 		/// on start we get our components
