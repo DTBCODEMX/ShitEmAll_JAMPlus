@@ -31,7 +31,7 @@ public class LevelBound : MonoBehaviour
         }
         if (player_position.y > top_right_pos.y )
         {
-            _player_ref.transform.position = new Vector2( player_position.x, top_right_pos.x ) ;
+            _player_ref.transform.position = new Vector2( player_position.x, top_right_pos.y ) ;
         }
         if (player_position.x < bottom_left_pos.x)
         {
