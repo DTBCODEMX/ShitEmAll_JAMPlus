@@ -41,8 +41,7 @@ public class PlayerController : MonoBehaviour
         if (col.CompareTag("Food"))
         {
             GetComponent<PlayerShitTaking>().increment_current_total_craps(5);
-
-            col.enabled = false;
+            Destroy(col.gameObject);
         }
     }
 
