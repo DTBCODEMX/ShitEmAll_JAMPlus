@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using MoreMountains.Tools;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -25,6 +24,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if(!_joystick) return;
         float vertical_input = _joystick.Vertical;
         float horizonatal_input = _joystick.Horizontal;
         
@@ -59,7 +59,4 @@ public class PlayerController : MonoBehaviour
         }
         transform.localScale = scale;
     }
-    
-    
-    
 }
