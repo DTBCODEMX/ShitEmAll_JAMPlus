@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 8357950510461459783}
   - component: {fileID: 8357950510461459778}
   - component: {fileID: 8357950510461459781}
+  - component: {fileID: 1951272307978067940}
   - component: {fileID: 8357950510461459780}
   m_Layer: 0
   m_Name: Player 1
@@ -133,10 +134,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 0}
   _joystick: {fileID: 0}
+  _animator: {fileID: 0}
+  speed: 4
+--- !u!114 &1951272307978067940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8357950510461459782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3159cc5cbfd98b1438ae9ee7e61ed02c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  current_max_craps: 30
+  current_total_craps: 10
   _shit_starting_location: {fileID: 8357950509808276034}
   _shit_prefab: {fileID: 6167996270120044875, guid: e3f942eb209a956439cca220eb658ed4,
     type: 3}
-  speed: 4
 --- !u!50 &8357950510461459780
 Rigidbody2D:
   serializedVersion: 4
