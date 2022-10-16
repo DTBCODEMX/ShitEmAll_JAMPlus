@@ -31,7 +31,6 @@ public class PlayerController : MonoBehaviour
     {
         float vertical_input = _joystick.Vertical;
         float horizonatal_input = _joystick.Horizontal;
-        print($"horizontal input is {horizonatal_input}");
         
         transform.Translate(Vector3.right * (horizonatal_input * speed * Time.deltaTime));
         transform.Translate(Vector3.up * (vertical_input * speed * Time.deltaTime));

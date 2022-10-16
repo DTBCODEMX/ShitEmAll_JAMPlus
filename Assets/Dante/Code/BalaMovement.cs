@@ -5,14 +5,11 @@ using UnityEngine;
 public class BalaMovement : MonoBehaviour
 {
     // Start is called before the first frame update
-
     [SerializeField, Range(0.5f, 20)] private float _speed = 0;
 
     void Start()
     {
-        
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -26,7 +23,7 @@ public class BalaMovement : MonoBehaviour
         if (other.gameObject.name == "Pajaro")
         {
 
-            Debug.Log("Choqué");
+            Debug.Log("Choquï¿½");
             Destroy(gameObject);
             //gameover()
 
