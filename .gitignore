@@ -73,4 +73,5 @@ crashlytics-build.properties
 #custom
 # the rider thing
 .[Ii]dea/
+[Aa]ssets/MMData
 
