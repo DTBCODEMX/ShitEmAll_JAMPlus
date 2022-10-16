@@ -123,6 +123,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &370002098 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1951272307978067940, guid: 1fa7177a37e806f4daf68ed0bbc7d21d,
+    type: 3}
+  m_PrefabInstance: {fileID: 908853143}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3159cc5cbfd98b1438ae9ee7e61ed02c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &541043240
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,12 +230,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _joystick
       value: 
-      objectReference: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252,
-        type: 3}
+      objectReference: {fileID: 989802583}
     - target: {fileID: 8357950510461459782, guid: 1fa7177a37e806f4daf68ed0bbc7d21d,
         type: 3}
       propertyPath: m_Name
-      value: Player 1
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8357950510461459783, guid: 1fa7177a37e806f4daf68ed0bbc7d21d,
         type: 3}
@@ -534,6 +545,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &989802583 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3683705120839505098, guid: bf461ddd25d412c4f9f836f5b26e246c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2059145195}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1434499216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -721,6 +744,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1997888651151766992, guid: bf461ddd25d412c4f9f836f5b26e246c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 370002098}
     - target: {fileID: 1997888651250881828, guid: bf461ddd25d412c4f9f836f5b26e246c,
         type: 3}
       propertyPath: m_Pivot.x
