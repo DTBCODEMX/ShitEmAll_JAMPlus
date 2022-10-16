@@ -11,7 +11,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Joystick _joystick;
     [SerializeField] private GameObject _shit_starting_location = null;
     [SerializeField] private GameObject _shit_prefab = null;
-    
+    [SerializeField] private Animator _animator;
+    private static int horizontal_speed_id = Animator.StringToHash("PlayerSpeedHorizontal");
     public float speed = 2.00f;
     private bool _do_flap = false;
 
@@ -22,7 +23,7 @@ public class PlayerController : MonoBehaviour
         Debug.Assert(_joystick,"joystick needs to be asigned a joysick" );
         Debug.Assert(_shit_starting_location,"_shit_starting_location needs to be asigned a gameobject" );
         Debug.Assert(_shit_prefab,"_shit_prefab needs to be asigned a prefab" );
-        
+        _animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -32,6 +33,10 @@ public class PlayerController : MonoBehaviour
         
         transform.Translate(Vector3.right * (horizonatal_input * speed * Time.deltaTime));
         transform.Translate(Vector3.up * (vertical_input * speed * Time.deltaTime));
+
+        _animator.SetFloat("PlayerSpeedHorizontal", MathF.Abs(horizonatal_input));
+        
+        flip_sprite(horizonatal_input);
     }
 
     public void shit()
@@ -39,4 +44,19 @@ public class PlayerController : MonoBehaviour
        GameObject go = Instantiate(_shit_prefab, _shit_starting_location.transform);
        
     }
+
+    private void flip_sprite(float direction)
+    {
+        Vector2 scale = transform.localScale;
+        if (direction > 0.0f)
+        {
+            scale.x = -1.0f;
+        }
+        else if (direction < 0.0f)
+        {
+            scale.x = 1.0f;
+        }
+        transform.localScale = scale;
+    }
+    
 }
