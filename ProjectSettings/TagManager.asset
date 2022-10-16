@@ -11,6 +11,7 @@ TagManager:
   - Enemy
   - TopRight
   - BottomLeft
+  - Food
   layers:
   - Default
   - TransparentFX

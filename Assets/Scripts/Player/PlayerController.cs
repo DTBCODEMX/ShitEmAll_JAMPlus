@@ -36,6 +36,16 @@ public class PlayerController : MonoBehaviour
         flip_sprite(horizonatal_input);
     }
 
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Food"))
+        {
+            GetComponent<PlayerShitTaking>().increment_current_total_craps(5);
+
+            col.enabled = false;
+        }
+    }
+
 
     private void flip_sprite(float direction)
     {
@@ -50,5 +60,7 @@ public class PlayerController : MonoBehaviour
         }
         transform.localScale = scale;
     }
+    
+    
     
 }

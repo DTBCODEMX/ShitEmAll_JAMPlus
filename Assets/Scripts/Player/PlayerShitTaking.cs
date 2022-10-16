@@ -35,6 +35,19 @@ public class PlayerShitTaking : MonoBehaviour
     {
         return current_total_craps > 0;
     }
-    
+
+    // increment 
+    public void increment_current_total_craps(int amount)
+    {
+        if ((current_total_craps + amount) > current_max_craps)
+        {
+            current_total_craps = current_max_craps;
+        }
+        else
+        {
+            current_total_craps += amount;
+        }
+
+    }
     
 }
