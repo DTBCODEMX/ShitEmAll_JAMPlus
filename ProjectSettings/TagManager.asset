@@ -8,6 +8,9 @@ TagManager:
   - Music
   - Background
   - NoMask
+  - Enemy
+  - TopRight
+  - BottomLeft
   layers:
   - Default
   - TransparentFX
