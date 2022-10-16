@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6636132936925365918}
   - component: {fileID: 6890808641029701312}
-  m_Layer: 9
+  m_Layer: 13
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,9 +70,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 606350985
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
     type: 3}
   m_Color: {r: 0.9056604, g: 0.8909322, b: 0.2597365, a: 1}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 2000595024614153993}
   - component: {fileID: 4043768473726820699}
   - component: {fileID: -3772709681488582656}
-  m_Layer: 9
+  m_Layer: 13
   m_Name: Bala
   m_TagString: Untagged
   m_Icon: {fileID: 0}
