@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class PlayerController : MonoBehaviour
+public class PlayerController2 : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D _rigidbody = null;
     [SerializeField] private Joystick _joystick;
@@ -20,9 +20,9 @@ public class PlayerController : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _rigidbody.gravityScale = 0.0f;
-        Debug.Assert(_joystick,"joystick needs to be asigned a joysick" );
-        Debug.Assert(_shit_starting_location,"_shit_starting_location needs to be asigned a gameobject" );
-        Debug.Assert(_shit_prefab,"_shit_prefab needs to be asigned a prefab" );
+        Debug.Assert(_joystick, "joystick needs to be asigned a joysick");
+        Debug.Assert(_shit_starting_location, "_shit_starting_location needs to be asigned a gameobject");
+        Debug.Assert(_shit_prefab, "_shit_prefab needs to be asigned a prefab");
         _animator = GetComponent<Animator>();
     }
 
@@ -30,19 +30,19 @@ public class PlayerController : MonoBehaviour
     {
         float vertical_input = _joystick.Vertical;
         float horizonatal_input = _joystick.Horizontal;
-        
+
         transform.Translate(Vector3.right * (horizonatal_input * speed * Time.deltaTime));
         transform.Translate(Vector3.up * (vertical_input * speed * Time.deltaTime));
 
         _animator.SetFloat("PlayerSpeedHorizontal", MathF.Abs(horizonatal_input));
-        
+
         flip_sprite(horizonatal_input);
     }
 
     public void shit()
     {
-       GameObject go = Instantiate(_shit_prefab, _shit_starting_location.transform);
-       
+        GameObject go = Instantiate(_shit_prefab, _shit_starting_location.transform);
+
     }
 
     private void flip_sprite(float direction)
@@ -58,5 +58,5 @@ public class PlayerController : MonoBehaviour
         }
         transform.localScale = scale;
     }
-    
+
 }
