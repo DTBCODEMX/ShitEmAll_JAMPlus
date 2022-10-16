@@ -8,6 +8,10 @@ TagManager:
   - Music
   - Background
   - NoMask
+  - Enemy
+  - TopRight
+  - BottomLeft
+  - Food
   layers:
   - Default
   - TransparentFX
