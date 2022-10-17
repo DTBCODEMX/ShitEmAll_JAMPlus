@@ -65,8 +65,7 @@ public class PlayerController : MonoBehaviour
         }
         transform.localScale = scale;
     }
-<<<<<<< HEAD
-=======
+
 
     private void handle_collision()
     {
@@ -79,5 +78,5 @@ public class PlayerController : MonoBehaviour
     }
     
     
->>>>>>> main3
+
 }
