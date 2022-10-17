@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
         _animator = GetComponent<Animator>();
         _layer_mask = 1 << LayerMask.NameToLayer("Enemies");
         _box_collider = GetComponent<BoxCollider2D>();
+        is_dead = false;
     }
 
     void Update()
