@@ -300,10 +300,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\t\t\tDEV\n\nProgramadores\nYhaliff Said Barraza \"yo hice cosas\" - Programador\n\nDamian
-    Torres Barrionuevo Developer \" Game Desinger | La Denny Queria VRG\" - Programador
-    / Game Desinger \n\n\nRa\xFAl Antonio Castillejos  Santillan  \r\n- Inteligencia
-    artificial\n\n\n\n\n"
+  m_text: "\t\t\tDEV\n\nProgramadores\nYhaliff Said Barraza  - Programador\n\nDamian
+    Torres Barrionuevo Developer  - Programador / Game Desinger \n\n\nRa\xFAl Antonio
+    Castillejos  Santillan  \r\n- Inteligencia artificial\n\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -523,9 +522,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\t\t\t   Arte \nJorge Abraham R\xE1bago Vega - renders 3D, el quien se
-    le ocurio la idea \n\n\xC1ngel de Jes\xFAs Colunga  \"Arriero e hice sufrir a
-    la pobre Denny\" - Artista 3D\n\nDenny Castro Mart\xEDnez - arte 2D y  Shaders\n\nCristopher
-    Canto Cetina - Musica"
+    le ocurio la idea \n\n\xC1ngel de Jes\xFAs Colunga  - Artista 3D\n\nDenny Castro
+    Mart\xEDnez - arte 2D y  Shaders\n\nCristopher Canto Cetina - Musica"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
