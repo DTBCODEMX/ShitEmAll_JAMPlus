@@ -10,6 +10,7 @@ public class EnemyMask : MonoBehaviour
 {
     [SerializeField] private LayerMask _player_projectile_mask;
     [SerializeField] private BoxCollider2D _box;
+    //[Se]
     [SerializeField] private bool _is_dead = false;
 
     void Start()
@@ -24,7 +25,8 @@ public class EnemyMask : MonoBehaviour
     {
         Collider2D col = Physics2D.OverlapBox(_box.transform.position, _box.size, 0.0f, _player_projectile_mask);
         if (!col) return;
-        _is_dead = true;
+        _is_dead = true; 
+//        var a =  Resources.Load("Lapida");
         gameObject.SetActive(false);
     }
     
