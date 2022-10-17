@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Historia.unity
     guid: 10e63b89e9b551147ab8479fe3846a00
   - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 83baabae0e7dc63499461a6ad7fa9c69
+  - enabled: 1
+    path: Assets/Scenes/Credit.unity
+    guid: 5fce6267f9c851948a0ab527ae60f9e9
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 887b43b469ebe9b458ab6c6b144781f8
   - enabled: 1

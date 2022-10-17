@@ -718,7 +718,6 @@ MonoBehaviour:
   - {fileID: 705712666}
   - {fileID: 1259263880}
   - {fileID: 1545609015}
-  _enemies_refs: []
   pre_fab_gate: {fileID: 7937978146405195114, guid: 7676440894b7bbf40a03a9ec86790a12,
     type: 3}
   current_index: 0
@@ -2016,6 +2015,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _current_score
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937978146405195117, guid: 7676440894b7bbf40a03a9ec86790a12,
+        type: 3}
+      propertyPath: score_for_deactivation
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7937978146405195118, guid: 7676440894b7bbf40a03a9ec86790a12,
         type: 3}
