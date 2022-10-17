@@ -21,7 +21,6 @@ public class ShootPlayer : MonoBehaviour
 
     private void Start()
     {
-        
         WaitForShoot();
     }
 
@@ -32,12 +31,21 @@ public class ShootPlayer : MonoBehaviour
 
     private IEnumerator WaitForShootCor()
     {
+        yield return new WaitUntil(() => _canShoot);
         yield return new WaitForSeconds(_ShootingTime);
         Shoot();
 
         WaitForShoot();
     }
-
+    
+    private bool _isVisibleForFirstTime = false;
+    private bool _canShoot = false;
+    public void OnRenderVisibiltyChanged(bool state)
+    {
+        if (_isVisibleForFirstTime) return;
+        _canShoot = true;
+        _isVisibleForFirstTime = state;
+    }
 
     private void Shoot()
     {
@@ -50,7 +58,8 @@ public class ShootPlayer : MonoBehaviour
             angle -= 180;
         
         var rot = Quaternion.AngleAxis(angle, Vector3.forward);
-        Instantiate(BalaPrefab, position, rot);
+        var bala = Instantiate(BalaPrefab, position, rot);
+        bala.Init(Vector3.right);
         
     }
 }

@@ -6,17 +6,20 @@ public class BalaMovement : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    [SerializeField, Range(0.5f, 20)] private float _speed = 0;
+    [SerializeField, Range(0.5f, 20)] private float _speed = 2;
 
-    void Start()
+    private Vector3 _dir;
+    
+    public void Init(Vector3 dir, float speed = 2)
     {
-        
+        _dir = dir;
+        _speed = speed;
     }
-
-    // Update is called once per frame
+    
+    
     void Update()
     {
-        
+        //Moverse logic
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -26,7 +29,7 @@ public class BalaMovement : MonoBehaviour
         if (other.gameObject.name == "Pajaro")
         {
 
-            Debug.Log("Choqué");
+            Debug.Log("Choquï¿½");
             Destroy(gameObject);
             //gameover()
 

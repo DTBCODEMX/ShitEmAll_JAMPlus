@@ -12,9 +12,19 @@ public class StopOnSight : MonoBehaviour
 
     private void Update()
     {
+        if (!_canMove) return;
         if(Physics2D.Raycast(_hitOrigin.position, _dir, _rayDistance, _layerMask)) return;
         
         transform.Translate(_speed * Time.deltaTime * _dir);
+    }
+    
+    private bool _isVisibleForFirstTime = false;
+    private bool _canMove = false;
+    public void OnRenderVisibiltyChanged(bool state)
+    {
+        if (_isVisibleForFirstTime) return;
+        _canMove = true;
+        _isVisibleForFirstTime = state;
     }
 
     private void OnDrawGizmos()
