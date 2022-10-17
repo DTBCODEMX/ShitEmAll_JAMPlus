@@ -19,17 +19,15 @@ public class BalaMovement : MonoBehaviour
     
     void Update()
     {
-        //Moverse logic
+        transform.position += transform.right*_speed * Time.deltaTime;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Hola");
 
-        if (other.gameObject.name == "Pajaro")
+        if (other.gameObject.name == "Player 1")
         {
 
-            Debug.Log("Choqu�");
             Destroy(gameObject);
             //gameover()
 

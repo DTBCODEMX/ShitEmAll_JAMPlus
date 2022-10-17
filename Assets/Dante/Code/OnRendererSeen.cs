@@ -13,7 +13,6 @@ public class OnRendererSeen : MonoBehaviour
     private void Awake()
     {
         _renderer = GetComponent<Renderer>();
-        _currentState = _renderer.isVisible;
     }
 
     private void Update()

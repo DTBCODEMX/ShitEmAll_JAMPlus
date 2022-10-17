@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: 03558719eb2b518478e5d8d65a0f8bef
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: poli_Caminado2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1225
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1086c4ef1a9548749b6b22f8806a80f8
+      internalID: -849301943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1225
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01ac6536847d9e4b8a7fd0cc690589d
+      internalID: -1044197212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1225
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c4ab5695120b04d94994630d0cc4fc
+      internalID: -1433613543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1225
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba78c966077d7eb4eb2dc4f26886622e
+      internalID: -1152684273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1225
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1e11464ef369345834e2183510d8b0
+      internalID: 1288584831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 981
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b90a57e9dd85764691873379d6b697e
+      internalID: -549984363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 981
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c5265e68f71b749bc7e3ce626a0bde
+      internalID: 1108401760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 981
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1d118c5b208db4da94809e2b0bbb74
+      internalID: -1465814466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_8
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 981
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c285bb3770d084196d8defe7747d24
+      internalID: 2142412526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_9
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 981
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7216e6027640e9042bf8ea5adc41f5c6
+      internalID: 1199670155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 737
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424a3087e9ad30f41ae0aacd6b3d8326
+      internalID: 363394353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 737
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01581136133cf494baef798525460622
+      internalID: -1101424420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 737
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671e2ac40510076438b7bcfe4b0861bb
+      internalID: -1707143323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 737
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86d6c533a9358b488a76e2c508236e7
+      internalID: 1150556516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 737
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4147c61ac16d9ba49b79224768d1cdec
+      internalID: 772450443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 493
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45ceceaf127528448ad5d8e34e066c1
+      internalID: 69187953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_16
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 493
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db09c1dfbce391745bf8cdf73c08aab8
+      internalID: -1873375280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 493
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b4e14808dcd8f4fb09b2152a917745
+      internalID: -1968048013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_18
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 493
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8467dd934b861a14d83fe25aeedbe449
+      internalID: 1946014211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_19
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 493
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308c052a913f944449b72977e8545f8b
+      internalID: 1761190404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f147644024cad4cacf8a21f23dee5a
+      internalID: -728115046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 249
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c41c76f7ee500e4984368c38fdeeb3b
+      internalID: -1439522894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 249
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982119e27f6b19f43bd6268902c9ef83
+      internalID: -1557694539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 249
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71ad0f3820096c459f46d8ddbca23ed
+      internalID: -1422067654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_24
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 249
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3883e625d2c884bbc8579ea85b7870
+      internalID: 1255203447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2703b9a7c775e4a8c9afa194570e0b
+      internalID: 742720218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 5
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e50153c0db1614da6d28b79790d85b
+      internalID: -725917715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 5
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f9661e1227ad744a27a7cbaf320d27
+      internalID: 143791977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_28
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4314265dcbba23469a39345895b1f1f
+      internalID: -1513553971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poli_Caminado2_29
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 5
+        width: 200
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7fbe992418a7a418a72a6f25dd24b7
+      internalID: 45415633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      poli_Caminado2_2: -1433613543
+      poli_Caminado2_6: 1108401760
+      poli_Caminado2_7: -1465814466
+      poli_Caminado2_11: -1101424420
+      poli_Caminado2_13: 1150556516
+      poli_Caminado2_14: 772450443
+      poli_Caminado2_1: -1044197212
+      poli_Caminado2_12: -1707143323
+      poli_Caminado2_24: 1255203447
+      poli_Caminado2_17: -1968048013
+      poli_Caminado2_16: -1873375280
+      poli_Caminado2_25: 742720218
+      poli_Caminado2_3: -1152684273
+      poli_Caminado2_27: 143791977
+      poli_Caminado2_26: -725917715
+      poli_Caminado2_9: 1199670155
+      poli_Caminado2_21: -1439522894
+      poli_Caminado2_19: 1761190404
+      poli_Caminado2_18: 1946014211
+      poli_Caminado2_15: 69187953
+      poli_Caminado2_22: -1557694539
+      poli_Caminado2_5: -549984363
+      poli_Caminado2_20: -728115046
+      poli_Caminado2_28: -1513553971
+      poli_Caminado2_23: -1422067654
+      poli_Caminado2_4: 1288584831
+      poli_Caminado2_10: 363394353
+      poli_Caminado2_0: -849301943
+      poli_Caminado2_8: 2142412526
+      poli_Caminado2_29: 45415633
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

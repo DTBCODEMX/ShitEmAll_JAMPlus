@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StopOnSight : MonoBehaviour
 {
-    [SerializeField, Range(0.5f, 20)] private float _speed = 0;
+    [SerializeField, Range(0.5f, 20)] private float _speed;
     [SerializeField] private LayerMask _layerMask = default;
     [SerializeField, Range(0.1f, 15)] private float _rayDistance = 5;
     [SerializeField] private Transform _hitOrigin;
@@ -14,7 +14,6 @@ public class StopOnSight : MonoBehaviour
     {
         if (!_canMove) return;
         if(Physics2D.Raycast(_hitOrigin.position, _dir, _rayDistance, _layerMask)) return;
-        
         transform.Translate(_speed * Time.deltaTime * _dir);
     }
     

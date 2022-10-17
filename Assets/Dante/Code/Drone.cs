@@ -16,7 +16,13 @@ public class Drone : MonoBehaviour
 
     private Vector3 _currentTargetPos;
     private Coroutine _shootCoroutine = null;
-
+    private Transform _transform;
+    
+    private void Awake()
+    {
+        _transform = transform;
+    }
+    
     public void Start()
     {
         SetNewTargetPos();
@@ -26,10 +32,9 @@ public class Drone : MonoBehaviour
     private void Update()
     {
         if (!_canMove) return;
-        Transform mTransform;
-        (mTransform = transform).position = Vector3.MoveTowards(transform.position, _currentTargetPos, Time.deltaTime * _speed);
-        var leftRay = Physics2D.Raycast(mTransform.position, -mTransform.right, _rayLenght, layerMask: _playerMask);
-        var righttRay = Physics2D.Raycast(mTransform.position, mTransform.right, _rayLenght, layerMask: _playerMask);
+        _transform.position = Vector3.MoveTowards(_transform.position, _currentTargetPos, Time.deltaTime * _speed);
+        var leftRay = Physics2D.Raycast(_transform.position, _transform.right, _rayLenght, layerMask: _playerMask);
+        var righttRay = Physics2D.Raycast(_transform.position,_transform.right, _rayLenght, layerMask: _playerMask);
         
         if (leftRay || righttRay)
         {
@@ -43,7 +48,7 @@ public class Drone : MonoBehaviour
 
     private IEnumerator ShootCor(Vector3 dir)
     {
-        var bala = Instantiate(_balaPrefab, transform.position, Quaternion.identity);
+        var bala = Instantiate(_balaPrefab, _transform.position, Quaternion.identity);
         bala.Init(dir);
         
         yield return new WaitForSeconds(_cadencyTime);
