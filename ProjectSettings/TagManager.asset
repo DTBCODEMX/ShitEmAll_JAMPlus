@@ -8,10 +8,6 @@ TagManager:
   - Music
   - Background
   - NoMask
-  - Enemy
-  - TopRight
-  - BottomLeft
-  - Food
   layers:
   - Default
   - TransparentFX
@@ -63,9 +59,6 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 1795597123
-    locked: 0
-  - name: Enemy
-    uniqueID: 2640881835
     locked: 0
   - name: VisibleParticles
     uniqueID: 940224915
