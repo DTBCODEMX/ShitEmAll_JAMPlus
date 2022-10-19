@@ -964,7 +964,7 @@ RectTransform:
   m_GameObject: {fileID: 448518839}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.76, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1469652664}
@@ -987,7 +987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab472eb51ad0e4535b858bc2f9fb9dc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextLevel: LevelSelection
+  NextLevel: Tutorial_OF
   AutoSkipDelay: 0
   FadeInDuration: 1
   FadeOutDuration: 1
@@ -1022,7 +1022,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 63987599f87294e30aaba732c8977b3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 509320149e0309d4ab1dcd337ed95a24, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1829,17 +1829,17 @@ PrefabInstance:
     - target: {fileID: 114710605443229870, guid: d484f18fffe8605418de5ebd475ab846,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.8862746
+      value: 0.41568628
       objectReference: {fileID: 0}
     - target: {fileID: 114710605443229870, guid: d484f18fffe8605418de5ebd475ab846,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8000001
+      value: 0.8352941
       objectReference: {fileID: 0}
     - target: {fileID: 114710605443229870, guid: d484f18fffe8605418de5ebd475ab846,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.21960786
+      value: 0.6627451
       objectReference: {fileID: 0}
     - target: {fileID: 224680906958821950, guid: d484f18fffe8605418de5ebd475ab846,
         type: 3}
@@ -2134,20 +2134,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1469652664}
     m_Modifications:
+    - target: {fileID: 114334721772879252, guid: dddb870645bdee94092fff3b5a85a34b,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.41568628
+      objectReference: {fileID: 0}
+    - target: {fileID: 114334721772879252, guid: dddb870645bdee94092fff3b5a85a34b,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.8352941
+      objectReference: {fileID: 0}
+    - target: {fileID: 114334721772879252, guid: dddb870645bdee94092fff3b5a85a34b,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.6627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 114997346982102234, guid: dddb870645bdee94092fff3b5a85a34b,
+        type: 3}
+      propertyPath: ButtonPressedFirstTime.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114997346982102234, guid: dddb870645bdee94092fff3b5a85a34b,
+        type: 3}
+      propertyPath: ButtonPressedFirstTime.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 114998343298060866, guid: dddb870645bdee94092fff3b5a85a34b,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.019607844
+      value: 0.41568628
       objectReference: {fileID: 0}
     - target: {fileID: 114998343298060866, guid: dddb870645bdee94092fff3b5a85a34b,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.67058825
+      value: 0.8352941
       objectReference: {fileID: 0}
     - target: {fileID: 114998343298060866, guid: dddb870645bdee94092fff3b5a85a34b,
         type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0.6627451
       objectReference: {fileID: 0}
     - target: {fileID: 224667010185643770, guid: dddb870645bdee94092fff3b5a85a34b,
         type: 3}
@@ -2237,7 +2262,7 @@ PrefabInstance:
     - target: {fileID: 224667010185643770, guid: dddb870645bdee94092fff3b5a85a34b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 107
+      value: 283
       objectReference: {fileID: 0}
     - target: {fileID: 225644543929030002, guid: dddb870645bdee94092fff3b5a85a34b,
         type: 3}
@@ -4198,7 +4223,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: V6.6
+  m_Text: v1.0
 --- !u!222 &1745617613
 CanvasRenderer:
   m_ObjectHideFlags: 0
