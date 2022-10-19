@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4919041882193206501}
   - component: {fileID: 4919041882193206500}
-  - component: {fileID: 4919041882193206507}
+  - component: {fileID: 1187835823}
   m_Layer: 0
   m_Name: DudeDialogueZone
   m_TagString: Untagged
@@ -46,7 +46,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -1.6}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -59,7 +59,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.37, y: 4.21}
   m_EdgeRadius: 0
---- !u!114 &4919041882193206507
+--- !u!114 &1187835823
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,10 +96,10 @@ MonoBehaviour:
   ButtonPromptText: A
   ButtonPromptColor: {r: 0.4862745, g: 0.9882353, b: 0, a: 1}
   ButtonPromptTextColor: {r: 1, g: 1, b: 1, a: 1}
-  AlwaysShowPrompt: 0
+  AlwaysShowPrompt: 1
   ShowPromptWhenColliding: 1
-  HidePromptAfterUse: 1
-  PromptRelativePosition: {x: 0.2, y: 3, z: 0}
+  HidePromptAfterUse: 0
+  PromptRelativePosition: {x: 0, y: 0, z: 0}
   ActivationFeedback: {fileID: 0}
   DeniedFeedback: {fileID: 0}
   EnterFeedback: {fileID: 0}
@@ -113,7 +113,7 @@ MonoBehaviour:
   OnStay:
     m_PersistentCalls:
       m_Calls: []
-  TextBackgroundColor: {r: 1, g: 0.50020283, b: 0.17647058, a: 1}
+  TextBackgroundColor: {r: 0.6627451, g: 0.8352941, b: 0.41568628, a: 1}
   TextColor: {r: 1, g: 1, b: 1, a: 1}
   ArrowVisible: 1
   TextFont: {fileID: 0}
@@ -121,19 +121,15 @@ MonoBehaviour:
   Alignment: 4
   FadeDuration: 0.2
   TransitionTime: 0.2
-  DistanceFromTop: 1
+  DistanceFromTop: 0
   BoxesFollowZone: 0
-  CanMoveWhileTalking: 0
+  CanMoveWhileTalking: 1
   ButtonHandled: 1
   MessageDuration: 3
   ActivableMoreThanOnce: 1
   InactiveTime: 2
   Dialogue:
-  - Hello again!
-  - This is the lava level.
-  - "It's quite hot in here.\t"
-  - "I'm sure you'll find \nthe exit easily."
-  - (It's in the top right corner)
+  - 'Hi! Help me '
 --- !u!1 &4919041883290514862
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,8 +161,8 @@ Transform:
   m_GameObject: {fileID: 4919041883290514862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -22.119934, y: -13.240733, z: 0}
-  m_LocalScale: {x: -1.5, y: 1.5, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: -2.7, y: 2.7, z: 1.8000001}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4919041882193206501}
   m_Father: {fileID: 0}
@@ -210,12 +206,12 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1628607475
+  m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e3c672ca6ae2c6844b4eb82a8f4dd06d, type: 3}
+  m_Sprite: {fileID: -479562258, guid: 545b2e5baefe6cd41b927d385b9edcd4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -257,18 +253,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.2}
+  m_Offset: {x: 0, y: 0.03}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 4, y: 3}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.98, y: 2.05}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.35, y: 1.85}
+  m_Size: {x: 1.35, y: 2.04}
   m_EdgeRadius: 0
 --- !u!114 &4919041883283527088
 MonoBehaviour:
